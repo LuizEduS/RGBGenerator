@@ -2,12 +2,11 @@ body{
     background-color: rgb(250,250,240);
 }
 .container{
+    margin-top: 70px;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
     background-color: transparent;
 
 }
@@ -53,8 +52,43 @@ div{
 .codigo{
 
     background-color: transparent;
-    font-size: 40px;
+    font-size: 26px;
     color: black;
     width: 500px;
     height: 80px;
+}
+
+.blocoInput{
+    display: flex;
+    align-items: center;
+
+}
+
+.css-input {
+    text-align: center;
+    padding: 6px;
+    font-size: 22px;
+    border-width: 0px;
+    margin: 4px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 12px;
+    box-shadow: 1px 0px 5px rgba(66,66,66,.40);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.0);
+}
+.css-input:focus {
+    outline:none;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
