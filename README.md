@@ -3,7 +3,7 @@ RGB Generator code
 </h1>
 
 <p align="center">
-  <img width="460" height="500" src="https://github.com/LuizEduS/RGBGenerator/blob/master/RGBgif.gif">
+  <img src="https://github.com/LuizEduS/RGBGenerator/blob/master/RGB2.gif">
 </p>
 
 <p align="center">RGB Generator (partial) for study purposes.</p>
